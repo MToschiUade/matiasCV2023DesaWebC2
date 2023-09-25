@@ -192,7 +192,7 @@
 
   .experencia .titulo-titulo {
   position: absolute;
-  top: 85%;
+  top: 95%;
   left: 36%;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
@@ -205,7 +205,7 @@
   .experencia .contenido-seccion {
     position: absolute;
     /* width: 100%; */
-    top: 90%;
+    top: 105%;
     left: 0%;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
@@ -220,7 +220,7 @@
     position: absolute;
     width: 100%;
     height: 248px;
-    top: 50%;
+    top: 55%;
     left: 0%;
     text-align: center;
   }
