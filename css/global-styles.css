@@ -1,0 +1,30 @@
+#foto-CV{
+    width: 20%;
+}
+
+#navbarCustom{
+    background-color: #259BF5;
+}
+
+.buttonNavBarCustom{
+    background-color: #4d7ca0;
+    border: 1px;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 2px;
+}
+
+@media (max-width: 600px) {
+    #foto-CV{
+        width: 100%;
+    }
+
+    .buttonNavBarCustom{
+        background-color: transparent;
+        border: 1px;
+        border-radius: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+  }
