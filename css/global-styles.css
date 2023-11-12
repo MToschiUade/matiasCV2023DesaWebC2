@@ -16,6 +16,14 @@
     padding: 2px;
 }
 
+.buttonNavBarCustom:hover{
+    background-color: rgb(83, 180, 254);
+    border: 1px;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 2px;
+}
+
 .titulo-sección{
 font-size: xx-large;
 font-weight: bold;
@@ -38,7 +46,7 @@ margin-left: 1vw;
     display: flex;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     #foto-CV{
         width: 100%;
         margin: 0%;
@@ -56,4 +64,17 @@ margin-left: 1vw;
         display: block;
     }
     
+    .column-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttonNavBarCustom:hover{
+        background-color: #259BF5;
+        border: none;
+        border-radius: none;
+        margin: none;
+        padding: none;
+    }
   }

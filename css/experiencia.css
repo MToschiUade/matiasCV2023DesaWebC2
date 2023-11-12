@@ -1,0 +1,32 @@
+.horizontal-card{
+    display: none;
+    flex-direction: row;
+}
+
+.card-anim {
+    transition: width 0.5s, height 0.5s, background-color 0.5s; /* Propiedades que serán animadas y duración de la animación */
+}
+
+.card-anim.animado {
+    background-color: rgb(88, 187, 196);   
+    transform: scale(1.2); /* Aumentar el tamaño durante la animación */
+    z-index: 2;
+    color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+    .horizontal-card{
+        display: none;
+        flex-direction: column;
+    }
+
+    .card-anim {
+        background-color: blue;
+        transition: width 0.5s, height 0.5s, background-color 0.5s; /* Propiedades que serán animadas y duración de la animación */
+    }
+    
+    .card-anim.animado {
+        background-color: red;
+    }
+    
+}
